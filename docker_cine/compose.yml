@@ -1,6 +1,6 @@
 services:
   db:
-    image: alvicha/mi_cine:v1
+    image: tochmo/mi_cine:v1
     container_name: cine
     environment:
       MYSQL_ROOT_PASSWORD: contrasenyaRoot
@@ -11,7 +11,7 @@ services:
       - "3306:3306"
 
   php:
-    image: alvicha/mi_app_cine:v1
+    image: tochmo/mi_app_cine:v1
     container_name: contenedorMiApp
     ports:
       - "8080:80"
