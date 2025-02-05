@@ -26,7 +26,7 @@ $result = $conn->query($sql);
 </head>
 
 <body>
-    <h1>Listados de Películas</h1>
+    <h1>Listado de Películas</h1>
     <table>
         <thead>
             <tr>
